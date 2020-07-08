@@ -1,0 +1,86 @@
+/* ------- Body ----------------------------------------------------------------- */
+
+body{
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+/* ------- Html ------------------------------------------------------------------ */
+
+html{
+  overflow-x: hidden;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+  text-align: justify;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 30%;
+}
+
+.cen{
+  text-align: center;
+  margin:auto;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+/* ------- Media Queries -------------------------------------------------------- */
+
+@media screen and (max-width : 768px){
+  h1{
+    font-size: 2.2rem;
+  }
+
+  h4{
+    font-size: 1rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  img {
+    width: 30%;
+  }
+}
